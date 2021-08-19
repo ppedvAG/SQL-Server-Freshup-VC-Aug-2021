@@ -6,9 +6,8 @@
  * Setup
  * MAXDOP
  * Abfragespeicher
-
  * Partitionierung
-	--Kombinierbarkeit mit KOmpression, Indizes
+	--Kombinierbarkeit mit Kompression, Indizes, Blocks
 
 
 * Abfragespeicher
