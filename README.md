@@ -8,6 +8,13 @@
  * Abfragespeicher
  * Partitionierung
 	--Kombinierbarkeit mit Kompression, Indizes, Blocks
+ * Abfragespeicher
 
 
-* Abfragespeicher
+ # Tag2
+ * ContainedDatabase
+ * Snapshot Database
+ * Protkollfragment
+ * Security (Rowlevel , DataMasking, AlwaysEncrypted)
+ * Protokollfragment
+ * 

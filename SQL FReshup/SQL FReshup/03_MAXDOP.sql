@@ -37,7 +37,7 @@ select * into ku1 from kundeumsatz
 alter table ku1 add id int identity
 
 
-select country, SUM(unitprice*quantity) from ku1
+select country, SUM(unitprice*quantity) from ku1 where YEAR(OrderDate) =1998
 group by country
 
 --im Plan... 2 Pfeile: mehr CPUS
