@@ -1,3 +1,21 @@
+--Protkollfragment
+/*
+ungesichterte Teil des logfiles
+
+SQL Server schlägt bei jedem Restore ein e Fragmentsicherung vor.
+Dadurch wird gewährleistet, dass kein  Dtaenverlust entsteht
+wenn auch die Daten im Backup sind
+
+
+Restore auf Sekunden möglich, ohne vorher die Sicherung machen zu müssen
+
+Wiederherstellungsmodell muss allerdings auf FULL gesetzt sein
+
+
+SSMS weist bei jedem RESTORE auf das Fragment hin
+
+*/
+
 --Protokollfragment
 --der Teil des Protkolls, der nicht gesichert wurde
 
